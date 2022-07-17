@@ -1,0 +1,35 @@
+td,
+th {
+	padding: 0.5em 1em;
+	text-align: left;
+}
+
+table {
+    width: 40%;
+	border: 3px solid black;
+}
+
+thead th {
+	border-bottom: 2px solid black;
+}
+
+tfoot td {
+	border-top: 2px solid black;
+}
+
+tbody td {
+	border-top: 1px dashed black;
+	border-right: 1px dashed black;
+}
+
+tbody tr:first-child td {
+	border-top: 0;
+}
+
+tbody td:last-child {
+	border-right: 0;
+}
+
+.ml-2 {
+    margin-left: 2rem
+}
